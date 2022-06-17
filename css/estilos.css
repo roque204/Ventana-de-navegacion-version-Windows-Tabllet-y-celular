@@ -1,0 +1,345 @@
+
+.header{
+    width: 100%;
+    height: 200px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.header1    {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.header2    {
+    width: 100%;
+     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.titulo {
+    width: 50%;
+    height: 80px;
+    background-color: rgb(183, 179, 187);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+}
+
+.titulo2 {
+    background-color: rgb(183, 179, 187);
+    width: 20%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    
+}
+
+
+.main   {
+    margin-top: 80px;
+    width: 90%;
+    height: 400px;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    margin-left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+}
+
+.main1  {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.main2  {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.text1  {
+    background-color: chartreuse;
+    width: 260px;
+    height: 200px;    
+}
+
+.text2  {
+    background-color: chartreuse;
+    width: 260px;
+    height: 200px; 
+}
+
+.text3  {
+    background-color: chartreuse;
+    width: 260px;
+    height: 200px;
+}
+
+
+
+.footer     {
+    width: 98.5%;
+    height: 30px;
+    background-color: cyan;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    position: fixed;
+    bottom: 0;
+}
+
+
+
+@media( max-width:768px){
+    .body{
+        background-color: rgba(151, 145, 145, 0.966);
+    }
+
+    .header{
+        width: 100%;
+        height: 200px;
+        background-color: aqua;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+       
+    }
+    
+    .header1    {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 50px;
+    }
+    
+    .header2    {
+        width: 100%;
+         display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .titulo {
+        width: 50%;
+        height: 80px;
+        background-color: rgb(183, 179, 187);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 50px;
+    }
+    
+    .titulo2 {
+        background-color: rgb(183, 179, 187);
+        width: 20%;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 50px;
+        
+    }
+    
+
+
+
+    .main   {
+        margin-top: 80px;
+        width: 90%;
+        height: 400px;
+        background-color: burlywood;
+        display: flex;
+        flex-direction: column;
+        align-items: center ;
+        margin-left: 5%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+    }
+    
+    .main1  {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .main2  {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    
+    }
+    
+    .text1  {
+        background-color: chartreuse;
+        width: 29%;
+        height: 40%;  
+        margin-left: 11%;  
+    }
+    
+    .text2  {
+        background-color: chartreuse;
+        width: 29%;
+        height: 40%; 
+        margin-left: 20%;
+    }
+    
+    .text3  {
+        background-color: chartreuse;
+        width: 29%;
+        height: 40%;
+        margin-left:11% ;
+    }
+  
+}
+
+
+
+@media( max-width:576px)
+{
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+
+    .body{
+        background-color: royalblue;
+    }
+
+    .header{
+        width: 100%;
+        height: 80%;
+        background-color: aqua;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+       
+    }
+    
+    .header1    {
+        margin-top: 2%;
+        height: 20%;
+        margin-bottom: 2%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 27px;
+    }
+    
+    .header2    {
+        width: 100%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .titulo {
+        width: 96%;
+        height: 25%;
+        margin-bottom: 5%;
+        background-color: rgb(183, 179, 187);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 27px;
+    }
+    
+    .titulo2 {
+        background-color: rgb(183, 179, 187);
+        width: 96%;
+        height: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 27px;
+        margin-bottom: 5%;
+        
+    }
+    
+
+
+
+    .main   {
+        width: 100%;
+        margin-left: 0px;
+        height: 90%;
+        background-color: burlywood;
+        display: flex;
+        flex-direction: column;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 27px;
+        margin-top: 5%;
+    }
+    
+    .main1  {
+        margin-top: 13px;
+        margin-bottom: 1px;
+    }
+    
+    .main2  {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    
+    }
+    
+    .text1  {
+        background-color: chartreuse;
+        width: 90%;
+        height: 120px;  
+        margin-left: 5%;
+    }
+    
+    .text2  {
+        background-color: chartreuse;
+        width: 90%;
+        height: 120px;
+        margin-left: 5%; 
+    }
+    
+    .text3  {
+        background-color: chartreuse;
+        width: 90%;
+        height: 120px;
+        margin-left: 5%;
+    }
+  
+    .footer     {
+        width: 100%;
+        height: 30px;
+        background-color: cyan;
+        display: flex;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 27px;
+        position: fixed;
+        bottom: 0;
+    }
+    
+
+}
